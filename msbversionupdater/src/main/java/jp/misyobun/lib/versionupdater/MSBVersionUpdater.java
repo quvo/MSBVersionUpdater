@@ -167,7 +167,7 @@ public class MSBVersionUpdater {
      * バージョンアップ判定
      * @return
      */
-    private boolean isVersionUpNeeded() {
+    public boolean isVersionUpNeeded() {
 
         if (activity == null || !isNewerThanCancelVersion()) {
             return false;
